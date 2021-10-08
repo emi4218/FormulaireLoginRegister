@@ -23,7 +23,8 @@ body {
     background-color: coral;
     width: 450px;
     height: 600px;
-    /* overflow: hidden; */
+    overflow: hidden;
+
 }
 
 .switch {
@@ -42,15 +43,16 @@ body {
     height: 32px;
     background-color: brown;
     border-radius: 50px;
+    cursor: pointer;
 }
 
 .btn {
     position: absolute;
     width: 178px;
-    height:30px;
+    height:32px;
     border-radius: 50px;
     left:0;
-    transition: linear 1s;
+    transition: linear 0.2s;
     background-color: lawngreen;
 } 
 
@@ -97,7 +99,7 @@ body {
 .form {
     display: flex;
     justify-content: space-between;
-
+    transition: transform linear 0.2s;
 }
 
 .formLogin {
@@ -109,7 +111,7 @@ body {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    left: 0;
+    left: 75px;
     transition: linear 1s;
     padding: 20px;
 }
@@ -123,7 +125,7 @@ body {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    left: 450px;
+    left: 525px;
     transition: linear 1s;
     padding: 20px;
 }
