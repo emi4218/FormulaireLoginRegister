@@ -18,40 +18,40 @@
     <div id="container">
 
         <div class="switch">
-            <div class="slider"></div>
+            <div class="slider">
+                <div class="btn"></div>
+                <div class="login">Log in</div>
+                <div class="register">Register</div>
+            </div>
         </div>
+
         <div id="logo">
-            <i class="fab fa-facebook-f"></i>
-            <i class="fab fa-twitter"></i>
-            <i class="fab fa-google"></i>
+            <div><i class="fab fa-facebook-f"></i></div>
+            <div><i class="fab fa-twitter"></i></div>
+            <div><i class="fab fa-google"></i></div>
         </div>
 
         <div class="form">
-            <div class="formulaire">
-                <div class="login">
-                    <form>
-                        <input type="text" class="username" placeholder="User id">
-                        <input type="password" class="password" placeholder="Enter password"></br>
-                        <input type="checkbox" class="remember">
-                        <label for="scales">Remember password</label></br>
-                        <button class="btn login">Log in</button>
-                    </form>
-                </div>
+            <div class="formLogin">
+                <input type="text" class="text" placeholder="User id">
+                <input type="password" class="text" placeholder="Enter password">
+
+                <input type="checkbox" class="remember">
+                <label for="scales">Remember password</label>
+                <input type="submit" value="login" class="button">
             </div>
-            <div class="formulaire">
-                <div class="register">
-                    <form>
-                        <input type="text" class="username" placeholder="User id">
-                        <input type="text" class="email" placeholder="Email id">
-                        <input type="password" class="password" placeholder="Enter password"></br>
-                        <input type="checkbox" class="remember">
-                        <label for="scales">I agree to the terms & conditions</label></br>
-                        <button class="btn login">Register</button>
-                    </form>
+
+            <div class="formRegister">
+                <input type="text" class="text" placeholder="User id">
+                <input type="text" class="text" placeholder="Email id">
+                <input type="password" class="text" placeholder="Enter password">
+                <div class="checkDiv">
+                    <input type="checkbox" class="remember">
+                    <label for="scales">I agree to the terms & conditions</label>
                 </div>
+                <input type="submit" value="register" class="button">
             </div>
         </div>
-
     </div>
 
 </body>
